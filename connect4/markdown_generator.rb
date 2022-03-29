@@ -21,14 +21,6 @@ class MarkdownGenerator
     game_winning_players = metadata[:game_winning_players].sort_by { |_, wins| -wins }
 
     markdown = <<~HTML
-        # Hey, I'm Jonathan 👋
-
-        [![Twitter Badge](https://img.shields.io/badge/-@codemaker2015-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/codemaker2015)](https://twitter.com/codemaker2015) [![Linkedin Badge](https://img.shields.io/badge/-JonathanGin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jonathangin/)](https://www.linkedin.com/in/jonathangin/)
-
-        Nice to meet you! I'm currently studying and working as a [Dev Degree](https://devdegree.ca/) intern [@Shopify](https://www.shopify.com/).
-        I've previously worked on building the [Shopify Fulfillment Network](https://www.shopify.com/fulfillment) as a fullstack developer, Shopify's Experimentation Platform as a data developer, and Shopify Checkout as a backend developer.
-        Nowadays, I'm working on Shopify Caching Platform as a production engineer.
-
         ## :game_die: Join my community Connect Four game!
         ![](https://img.shields.io/badge/Moves%20played-#{total_moves_played}-blue)
         ![](https://img.shields.io/badge/Completed%20games-#{completed_games}-brightgreen)
