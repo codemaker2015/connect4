@@ -97,7 +97,7 @@ end
 This is a simple scoring function that will eventually be improved with simple heuristics.
 
 ## Contributing
-If you notice anything wrong or think of a cool new feature, please [open an issue](https://github.com/codemaker2015/codemaker2015/issues/new). Feel free to tag me with the text `cc: @codemaker2015` to make sure I see it.
+If you notice anything wrong or think of a cool new feature, please [open an issue](https://github.com/codemaker2015/connect4/issues/new). Feel free to tag me with the text `cc: @codemaker2015` to make sure I see it.
 
 **More details on how to contribute coming soon!**
 

@@ -1,8 +1,8 @@
 require_relative './game'
 
 class MarkdownGenerator
-  IMAGE_BASE_URL = 'https://raw.githubusercontent.com/codemaker2015/codemaker2015/main/images'
-  ISSUE_BASE_URL = 'https://github.com/codemaker2015/codemaker2015/issues/new'
+  IMAGE_BASE_URL = 'https://raw.githubusercontent.com/codemaker2015/connect4/main/images'
+  ISSUE_BASE_URL = 'https://github.com/codemaker2015/connect4/issues/new'
   ISSUE_BODY = 'body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+README+will+be+updated+after+approximately+30+seconds.'
 
   RED_IMAGE = "![](#{IMAGE_BASE_URL}/red.png)"
